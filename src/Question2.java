@@ -5,11 +5,13 @@ String 2: Python Exercises
 Result: Java Exercises and Python Exercises
 */
 public class Question2 {
+    //decleared my main method
+    public static void main(String[] args) {
+        //called my concatinateString method
+        concatinateString("Java Exercises ", "Python Exercises");
+    }
     //created a concatinateString method
-    static void concatinateString() {
-        //decleared two strings and gave them values
-        String myString1 = "Java Exercises ";
-        String myString2 = "Python Exercises";
+    static void concatinateString(String myString1, String myString2 ) {
         //used the concat method to concatinate string1 to string2
         String result1 = myString1.concat(myString2);
         //print the result
@@ -19,9 +21,5 @@ public class Question2 {
         //print the result
         System.out.println(result2);
     }
-    //decleared my main method
-    public static void main(String[] args) {
-        //called my concatinateString method
-        concatinateString();
-    }
+
 }

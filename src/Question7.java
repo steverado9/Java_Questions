@@ -5,6 +5,12 @@ Red is favorite color. starts with Red? true
 Orange is also my favorite color. starts with Red? false
 */
 public class Question7 {
+    //created the main method
+    public static void main(String[] args) {
+        //called the startWithString method with values
+        startWithString("Red");
+        startWithString("red");
+    }
     //created a method called startWithString
     static void startWithString(String value) {
         //decleared a string with a variable and value
@@ -13,11 +19,5 @@ public class Question7 {
         boolean result = myString.startsWith(value);
         //print the result
         System.out.println(result);
-    }
-    //created the main method
-    public static void main(String[] args) {
-        //called the startWithString method with values
-        startWithString("Red");
-        startWithString("red");
     }
 }

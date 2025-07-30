@@ -10,10 +10,10 @@ The second most frequent char in the string is: c
 public class Question9 {
     static void mostFrequentCharacter(String value) {
         // Initialize the character frequency map
-        Map<Character, Integer> charCountMap = new HashMap<>();
+        Map<Character, Integer> charCountMap = new HashMap<>(); // s:1,u:1, c:2,
 
         //count the frequency of each character
-        for (char eachChar : value.toCharArray()) {
+        for (char eachChar : value.toCharArray()) { // ["s", "u", "c", cesses"]
             charCountMap.put(eachChar, charCountMap.getOrDefault(eachChar, 0) + 1);
         }
 

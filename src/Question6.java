@@ -4,6 +4,11 @@ Original string: The quick brown fox jumps over the lazy dog.
 New String: The quick brown cat jumps over the lazy dog.
 */
 public class Question6 {
+    //created my main method
+    public static void main(String[] args) {
+        //called the replaceSubString method
+        replaceSubstring("cat");
+    }
     //created a method replaceSubstring
     static void replaceSubstring(String value) {
         //decleared a string and added content
@@ -15,9 +20,5 @@ public class Question6 {
         //print the result
         System.out.println(result);
     }
-    //created my main method
-    public static void main(String[] args) {
-        //called the replaceSubString method
-        replaceSubstring("cat");
-    }
+
 }

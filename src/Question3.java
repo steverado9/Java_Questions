@@ -5,6 +5,11 @@ Specified sequence of char values: and
 Result: true
 */
 public class Question3 {
+    //created my main method
+    public static void main(String[] args) {
+        //called my itContains method
+        itContains("and");
+    }
     //created an itContains method
     static void itContains(String value) {
         //decleared a string and gave it a value
@@ -14,9 +19,5 @@ public class Question3 {
         //print result
         System.out.println(result);
     }
-    //creaed my main method
-    public static void main(String[] args) {
-        //called my itContains method
-        itContains("and");
-    }
+
 }
